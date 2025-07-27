@@ -1,4 +1,4 @@
-# Parkinson's Disease Detection using Voice Features 🎙️🌿
+# Parkinson's Disease Detection using Voice Features 
 
 This project aims to develop a machine learning model that detects Parkinson’s Disease (PD) based on biomedical voice measurements. Parkinson’s Disease is a progressive neurological disorder that primarily affects movement and speech. Since voice impairment is an early and prominent symptom of PD, analyzing vocal biomarkers offers a promising, non-invasive method for early detection.
 
@@ -47,15 +47,26 @@ We use Random Forest due to its robustness and capability to handle non-linear r
 - **Recall**: 96.88%
 - **F1 Score**: 93.94%
 
-### 📄 Classification Report
 
-           precision    recall  f1-score   support
- Healthy       0.80      0.57      0.67         7
-     PD       0.91      0.97      0.94        32
+### Classification Report
 
-Accuracy                           0.90        39
-Macro Avg 0.86 0.77 0.80 39
-Weighted Avg 0.89 0.90 0.89 39
+| Class     | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| Healthy   | 0.80      | 0.57   | 0.67     | 7       |
+| PD        | 0.91      | 0.97   | 0.94     | 32      |
+
+**Overall Metrics**
+
+| Metric         | Score |
+|----------------|-------|
+| Accuracy       | 0.90  |
+| Macro Avg F1   | 0.80  |
+| Macro Avg Prec | 0.86  |
+| Macro Avg Rec  | 0.77  |
+| Weighted Avg F1| 0.89  |
+| Weighted Avg Prec | 0.89 |
+| Weighted Avg Rec  | 0.90 |
+
 
 🧠 Author
 Surabhi Pandey
